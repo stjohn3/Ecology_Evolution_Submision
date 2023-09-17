@@ -1,0 +1,153 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww25780\viewh13940\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Raw Data\
+\
+	00_CaribbeanResiduals.csv\
+		This file contains the residuals of the individuals from 5 Caribbean populations: Lake Cunningham (Nassau, Bahamas), Flamingo Pond (Acklands, Bahamas), Rum Cay Island (Bahamas), Etang Saumatre (Dominican Republic), and Laguna Oviedo (Dominican Republic). These populations only contain the generalist pupfish species (C. variegatus).\
+\
+	01_SSIGeneralistOnlyPondResiduals.csv\
+		This file has the residuals of individuals collected from 6 San Salvador Island nonradiating populations that only have generalists: Wild Dilly Pond, Reckley Field Pond, Pain Pond, Moon Rock Pond, Six Pack Pond, and Mermaid Pond.\
+\
+	02_SSIRadiatingPondResiduals.csv\
+		This file contains the residuals of individuals collected from three ponds on San Salvador Island with the full radiation (contain scale-eaters, snail-eaters, and generalists). The ponds are Crescent Pond, Little Lake, and Oyster Pond.\
+\
+	03_CRPSnail_eaterResiduals.csv\
+		This file has the residuals from the snail-eating pupfish collected from Crescent Pond.\
+\
+	04_CRPHybridResiduals.csv\
+		This file contains the residuals from the F2 hybrid individuals of a cross between a Crescent Pond scale-eater and a Crescent Pond snail-eater.\
+\
+	05_CRPScale_eaterResiduals.csv\
+		This file has the residuals from the scale-eating pupfish collected from Crescent Pond.\
+\
+	06_CRPGeneralistResiduals.csv\
+		This file has the residuals from the generalist pupfish collected from Crescent Pond.\
+\
+	07_LLSnail_eaterResiduals.csv\
+		This file has the residuals from the snail-eating pupfish collected from Little Lake.\
+\
+	08_LLHybridResiduals.csv\
+		This file contains the residuals from the F2 hybrid individuals of a cross between a Little Lake scale-eater and a Little Lake snail-eater.\
+\
+	09_LLScale_eaterResiduals.csv\
+		This file has the residuals from the scale-eating pupfish collected from Little Lake.\
+\
+	10_LLGeneralistResiduals.csv\
+		This file has the residuals from the generalist pupfish collected from Little Lake.\
+\
+\
+Output Data\
+\
+	Because the method for creating covariance matrices is based on iterations, the code to create the covariance matrix for a particular population will not give the same output every time.\
+\
+	11_CaribbeanCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of individuals collected from 6 San Salvador Island nonradiating populations that only have generalists: Wild Dilly Pond, Reckley Field Pond, Pain Pond, Moon Rock Pond, Six Pack Pond, and Mermaid Pond.\
+\
+	12_SSIGeneralistOnlyPondCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of individuals collected from 6 San Salvador Island nonradiating populations that only have generalists: Wild Dilly Pond, Reckley Field Pond, Pain Pond, Moon Rock Pond, Six Pack Pond, and Mermaid Pond.\
+\
+	13_SSIRadiatingPondCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of individuals collected from three ponds on San Salvador Island with the full radiation (contain scale-eaters, snail-eaters, and generalists). The ponds are Crescent Pond, Little Lake, and Oyster Pond.\
+\
+	14_CRPSnail_eaterCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of snail-eating pupfish collected from Crescent Pond.\
+\
+	15_CRPHybridCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of F2 hybrid individuals of a cross between a Crescent Pond scale-eater and a Crescent Pond snail-eater.\
+\
+	16_CRP_Scale_eaterCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of scale-eating pupfish collected from Crescent Pond.\
+\
+	17_CRPGeneralistCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of generalist pupfish collected from Crescent Pond.\
+\
+	18_LLSnail_eaterCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of snail-eating pupfish collected from Little Lake.\
+\
+	19_LLHybridCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of F2 hybrid individuals of a cross between a Little Lake scale-eater and a Little Lake snail-eater.\
+\
+	20_LLScale_eaterCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of scale-eating pupfish collected from Little Lake.\
+\
+	21_LLGeneralistCovMatrix.csv\
+		This file contains the variance-covariance matrix (P matrix) for the group of generalist pupfish collected from Little Lake.\
+\
+	22_MeanMatrixStatisticsAllPopulations.csv\
+		This file contains the outputs of the EvolQG MeanMatrixStats function (autonomy, constraints, flexibility, mean squared correlation, and respondability) for all 10 focal populations.\
+\
+	23_PCASimilarityAllPopulations.csv\
+		This file contains the outputs of the EvolQG PCASimilarity function for the following population comparisons:\
+			Crescent Pond Generalists and Crescent Pond Hybrids (cp.gen.hyb)\
+			Crescent Pond Hybrids and Little Lake Hybrids (cp.ll.hyb)\
+			Crescent Pond Snail-eaters and Crescent Pond Hybrids (cp.M.hyb)\
+			Crescent Pond Scale-eaters and Crescent Pond Hybrids (cp.P.hyb)\
+			Little Lake Generalists and Little Lake Hybrids (ll.gen.hyb)\
+			Little Lake Snail-eaters and Little Lake Hybrids (ll.M.hyb)\
+			Little Lake Scale-eaters and Little Lake Hybrids (ll.P.hyb)\
+			San Salvador Island Generalist-only Ponds and Caribbean Ponds (ssi.gen.carb)\
+			San Salvador Island Generalist-only Ponds and San Salvador Island Radiating Ponds (ssi.gen.rad)\
+			San Salvador Island Radiating Ponds and Caribbean Ponds (ssi.rad.carb)\
+\
+	24_RandomSkewersAllPopulations.csv\
+		This file contains the outputs of the EvolQG RandomSkewers function for the following population comparisons:\
+			Crescent Pond Generalists and Crescent Pond Hybrids (cp.gen.hyb)\
+			Crescent Pond Hybrids and Little Lake Hybrids (cp.ll.hyb)\
+			Crescent Pond Snail-eaters and Crescent Pond Hybrids (cp.M.hyb)\
+			Crescent Pond Scale-eaters and Crescent Pond Hybrids (cp.P.hyb)\
+			Little Lake Generalists and Little Lake Hybrids (ll.gen.hyb)\
+			Little Lake Snail-eaters and Little Lake Hybrids (ll.M.hyb)\
+			Little Lake Scale-eaters and Little Lake Hybrids (ll.P.hyb)\
+			San Salvador Island Generalist-only Ponds and Caribbean Ponds (ssi.gen.carb)\
+			San Salvador Island Generalist-only Ponds and San Salvador Island Radiating Ponds (ssi.gen.rad)\
+			San Salvador Island Radiating Ponds and Caribbean Ponds (ssi.rad.carb)\
+\
+	25_CRP_PCARotation.csv\
+		This file contains the rotation output of a Principal Component Analysis conducted on Crescent Pond hybrids and their parental types: Crescent Pond scale=eaters and Crescent Pond snail-eaters.\
+\
+	26_LL_PCARotation.csv\
+		This file contains the rotation output of a Principal Component Analysis conducted on Little Lake hybrids and their parental types: Little Lake scale=eaters and Little Lake snail-eaters.\
+\
+	27_CRPHybridCovarianceMeans.csv\
+		This file contains the mean covariances in Crescent Pond hybrids of each of the four traits that contributed most to PC axis 1 of the Principal Component Analysis conducted on Crescent Pond hybrids and their parental types: Crescent Pond scale-eaters and Crescent Pond snail-eaters, along with the average covariance across all measured cranial traits in Crescent Pond hybrids.\
+\
+	28_LLHybridCovarianceMeans.csv\
+		This file contains the mean covariances in Little Lake hybrids of each of the four traits that contributed most to PC axis 1 of the Principal Component Analysis conducted on Little Lake hybrids and their parental types: Little Lake scale-eaters and Little Lake snail-eaters, along with the average covariance across all measured cranial traits in Little Lake hybrids.\
+\
+\
+\
+R Scripts\
+\
+	00_CalculatingLinearDistancesFromXYpoints\
+		Using the Pythagorean Theorem, we calculate linear distances from xy coordinates exported from DLTdv. We measure the px length of a 1 mm grid square to set up the proportion to convert the trait distances from px to mm.\
+\
+	01_CalculatingResidualsFromLinearDistances.R\
+		For each of the cranial traits, we standardized each trait measurement by performing a linear model with the standard length. We then extracted the residuals for each individual.\
+\
+	02_MakingPMatrices.R\
+		We performed a linear model on the residuals with the IDs of the individuals. Then we used the CalculateMatrix function from the R package evolqg to produce a variance-covariance matrix (P matrix) for every population.\
+\
+	03_MeanMatrixStatisticsWithBootstrapping.R\
+		We sampled the residuals from each population with replacement 100 times. We sampled a few populations without replacement because their population sizes were too small to sample with replacement. Next, we calculated the variance-covariance matrices from the resampled datasets. We then used the function MeanMatrixStatistics from the R package evolqg to calculate autonomy, constraints, flexibility, mean squared correlation, and respondability over 100 iterations. We then took the mean and confidence integrals of these statistics.\
+\
+	04_PCASimiliarity_RandomSkewersWithBootstrapping.R\
+		We sampled the residuals from each population with replacement 100 times. We sampled a few populations without replacement because their population sizes were too small to sample with replacement. Next, we calculated the variance-covariance matrices from the resampled datasets. We then calculated the PCA Similarity and Random Skewers from the corresponding functions in the R package evolqg over 100 iterations for various pairs of populations. After, we computed the mean and confidence integrals of these two statistics.\
+\
+	05_GraphingMMS.PCASim.RS.R\
+		We combined the statistic values from all of the populations and population comparisons into 3 data frames: one for MeanMatrixStatistics, one for PCA Similarity, and one for Random Skewers. For each of these data frames, we plotted the means and confidence intervals in two graphs, one comparing the Caribbean, San Salvador Island generalist-only populations, and San Salvador Island radiating populations, and one comparing the purebred species and hybrids on Crescent Pond and Little Lake.\
+\
+	06_PrincipalComponentsAnalysis.R\
+		We reconfigured the variance-covariance matrix data frames so that all of the variances and covariances were in a single row. We combined the data frames for F2 hybrids, snail-eating pupfish, and scale-eating pupfish into two separate data frames that corresponded to Crescent Pond and Little Lake. We performed a principal components analysis on each of these two lakes to investigate the trait variances and covariances that contributed most to principal component axis 1, and thus the difference between hybrids and the parental types (snail-eating and scale-eating pupfish). We extracted the rotation data frame for each lake, took the absolute value of the PCA rotations, and sorted the PC1 column in descending order to find the traits that contributed the most to PC1.\
+\
+	07_CalculatingAverageTraitCovariances.R\
+		Once we found the four traits (maxillary head height, maxillary head protrusion, nasal tissue protrusion, and opening in-lever) with the greatest contributions to PC1 in both Crescent Pond and Little Lake, we calculated the average covariance for each of these traits for hybrids in each pond. After removing the variances from the hybrid P matrices, we calculated the average covariance across all cranial traits measured. This allowed us to see whether in comparison to the overall average covariance, these traits tended to have stronger, weaker, or relatively similar covariances.\
+\
+	08_PlottingHistogramsForTraitsWithGreatestPC1Contributions.R\
+		To further investigate the four traits that contributed the most to PC axis 1 in both Crescent Pond and Little Lake, we plotted histograms of the hybrid residuals for each of these traits in both ponds. We calculated the mean trait value for snail-eaters and scale-eaters for these four traits in both ponds. To estimate what we might expect the hybrid trait value to be, we took the average of the snail-eater and scale-eater means for each trait, separated by pond. We plotted the parental species means and hybrid estimates on the histograms, examining the hybrid residual distribution to see whether hybrids looked more like scale-eaters or snail-eaters for each trait.\
+	\
+	}
